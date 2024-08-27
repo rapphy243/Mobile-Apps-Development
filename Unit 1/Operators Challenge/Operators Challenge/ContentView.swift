@@ -199,7 +199,7 @@ struct ContentView: View {
         * Start Your Code Here For Stretch 3
         *************************************/
         let unchartedLink = "https://www.unchartedlearning.org"
-        var completeURL = unchartedLink + "/" + urlAddOnTextFieldText
+        let completeURL = unchartedLink + "/" + urlAddOnTextFieldText
         /***********************************
         * End Your Code Here For Stretch 3
         ***********************************/
