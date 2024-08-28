@@ -15,6 +15,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Group{
+                Text("Hello, world!")
                 RoundedRectangle(cornerRadius: 30)
                     .fill(.blue)
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
@@ -22,12 +23,10 @@ struct ContentView: View {
                     .padding()
                 Button("Click Me"){
                 }
-                .padding()
                 Image("dog")
                     .resizable()
                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
                 Link("Barrington High School", destination: URL( string: "https://bhs.barrington220.org")!)
-                    .padding()
                 }
             Group {
                 ColorPicker("Pick a Color", selection: $color)
