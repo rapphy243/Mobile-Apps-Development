@@ -67,7 +67,7 @@ print("This is always executed.")
 //: ![Icon for Branching](image8.png "Branching")
 //:
 //: Here is a real code example of a simple `switch` statement checking the value of a variable for a couple of different values.
-let sides = 6
+let sides = 1
 switch sides
 {
 case 6:
@@ -81,7 +81,7 @@ default : print("some other value other than 5 or 6")
 //: The power of `switch` statements
 //: Suppose we want to test to see if a variable is in two different range of values and, depending on the answer, take a different course of action.  Note: for range, we use dots. Using 2 dots with a less than sign before the last number (e.g. `case 1..<4`) means “use all numbers up to to number just before the last one listed” (e.g. `1, 2, 3`). Using 3 dots (e.g. `case 1...4`) means “use all numbers including the last one”  (e.g `1, 2, 3, 4`).
 //: Let’s say we’re building an application that can see how much money you have in a savings account and can determine whether or not you can afford to go to the new concert in town. We build a set of instructions where if `mySavingsAccount` has less than 100 dollars we don’t go to the concert, if we have 100 to 200 we can go to the concert, and if we have over 200, we can invite a friend to come with us. Here’s how that would look in a `switch` statement.
-let mySavingsAccount = 100
+let mySavingsAccount = 999
 switch mySavingsAccount
 {
 case 0...100:
