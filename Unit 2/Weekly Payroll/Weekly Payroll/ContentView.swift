@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var pay = 0.0
     var body: some View {
         VStack {
-            CustomText(text: "Weekly Payroll")
+            CustomText(textstr: "Weekly Payroll")
             CustomTextField(placeholder: "Hourly Wage", variable: $hourlyWageTextField)
             CustomTextField(placeholder: "Hours Worked", variable: $hoursWorkedTextField)
             Button("Calculate") {
@@ -48,10 +48,10 @@ struct CustomTextField: View {
 }
 
 struct CustomText: View {
-    let text: String
+    let textstr: String
     var body: some View {
         VStack {
-            Text(text)
+            Text(textstr)
                 .font(.title)
             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
         }
