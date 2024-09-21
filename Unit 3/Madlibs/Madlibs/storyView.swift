@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct storyView: View {
+    @State var word: words
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(writeStory())
     }
 }
-
-#Preview {
-    storyView()
+struct storyViews_Previews: PreviewProvider {
+    static var previews: some View {
+        storyView(word: words())
+    }
+}
+func writeStory() -> String {
+    return "I walk through the color jungle. I take out my \(word.adjective0) canteen. " + "There's a \(word.adjective1) parrot with a \(word.adjective2) (noun) in his mouth right there in front of me in the (adjective) trees!"
 }
