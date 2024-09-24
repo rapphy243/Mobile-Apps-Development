@@ -46,6 +46,13 @@ struct ContentView: View {
                     requiredGrade = max(0.0,(desiredGrade - (currentGrade * (1.0 - finalPercentage))) / finalPercentage)
                 }
             }
+            else {
+                requiredGrade = 0.0
+            }
+        
+        }
+        else {
+            requiredGrade = 0.0
         }
     }
 }
