@@ -1,3 +1,6 @@
 [submodule "Unit 3/Madlibs"]
 	path = Unit 3/Madlibs
 	url = https://github.com/rapphy243/Madlibs
+[submodule "Unit 2/Final Grade Caluculator"]
+	path = Unit 2/Final Grade Caluculator
+	url = https://github.com/rapphy243/Final-Grade-Caluculator
