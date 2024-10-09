@@ -59,7 +59,7 @@ import SwiftUI
 struct SomeCustomView: View {
     let customText : String
     var body: some View {
-        Text("")
+        Text(customText)
     }
     
     func someFunction() {
