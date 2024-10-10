@@ -7,6 +7,6 @@
 [submodule "Unit 4/Pig"]
 	path = Unit 4/Pig
 	url = https://github.com/rapphy243/Pig
-[submodule "Unit 5/Tic Tac Toe"]
-	path = Unit 5/Tic Tac Toe
+[submodule "Unit 5/Tic-Tac-Toe"]
+	path = Unit 5/Tic-Tac-Toe
 	url = https://github.com/rapphy243/Tic-Tac-Toe
