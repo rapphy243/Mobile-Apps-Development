@@ -28,4 +28,11 @@ fastlane/test_output
 *.DS_Store
 
 *.zip
-Unit 5/Scoping.playground/
+
+## 
+
+Unit 0/Variables.playground
+Unit 0/Data Types.playground
+Unit 2/Conditionals.playground
+Unit 2/Functions.playground
+Unit 5/Scoping.playground
