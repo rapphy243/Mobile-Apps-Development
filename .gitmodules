@@ -10,3 +10,6 @@
 [submodule "Unit 5/Tic-Tac-Toe"]
 	path = Unit 5/Tic-Tac-Toe
 	url = https://github.com/rapphy243/Tic-Tac-Toe
+[submodule "Unit 6/Final-App"]
+	path = Unit 6/Final-App
+	url = https://github.com/rapphy243/Final-App
