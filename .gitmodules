@@ -13,3 +13,6 @@
 [submodule "Unit 6/Final-App"]
 	path = Unit 6/Final-App
 	url = https://github.com/rapphy243/Final-App
+[submodule "Unit 7/Country-Flag-Game"]
+	path = Unit 7/Country Flag Game
+	url = https://github.com/rapphy243/Country-Flag-Game
