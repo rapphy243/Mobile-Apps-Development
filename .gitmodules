@@ -19,9 +19,6 @@
 [submodule "Unit 8/To-Do-List"]
 	path = Unit 8/To-Do-List
 	url = https://github.com/rapphy243/To-Do-List
-[submodule "Unit 8/To-Do-List"]
-	path = Unit 8/To-Do-List
-	url = https://github.com/rapphy243/To-Do-List
 [submodule "Unit 8/Assignment Notebook"]
 	path = Unit 8/Assignment Notebook
 	url = https://github.com/rapphy243/Assignment-Notebook
